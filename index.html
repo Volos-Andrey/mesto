@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./pages/index.css">
+    <title>Document</title>
+</head>
+<body class="page">
+    <header class="header">
+        <img class="header__logo" src="./images/logo.svg">
+    </header>
+    <main class="content">
+        <section class="profile">
+           <div class="profile__block"> 
+            <img class="profile__avatar" src="./images/Avatar.png">
+           <div class="profile__intro">
+               <div class="profile__text">
+                   <h1 class="profile__name">Жак-Ив Кусто</h1>
+                   <input class="profile__edit popup_active" href="#" type="image" src="./images/Edit Button.svg">
+                </div>
+                <p class="profile__subtitle">Исследователь океана</p>
+            </div>
+        </div>
+            <input type="image" href="#" src="./images/AddButton.png" class="profile__button">    
+        </section>
+        <section class="elements">
+            <div class="element__inform">
+                <img class="element__image" src="./images/Karachaevsk.png">
+                <div class="element__form">
+                    <h2 class="element__title">Карачаевск</h2>
+                    <input type="image" src="./images/like/Vector.svg" class="element__button">
+                </div>
+            </div>
+            <div class="element__inform">
+                <img class="element__image" src="./images/Gora.png">
+                <div class="element__form">
+                    <h2 class="element__title">Гора Эльбрус</h2>
+                    <input type="image" src="./images/like/Vector.svg" class="element__button">
+                </div>
+            </div>
+            <div class="element__inform">
+                <img class="element__image" src="./images/Dombay.png">
+                <div class="element__form">
+                    <h2 class="element__title">Домбай</h2>
+                    <input type="image" src="./images/like/Vector.svg" class="element__button">
+                </div>
+            </div>
+            <div class="element__inform">
+                <img class="element__image" src="./images/Gora1.png">
+                <div class="element__form">
+                    <h2 class="element__title">Гора Эльбрус</h2>
+                    <input type="image" src="./images/like/Vector.svg"  class="element__button">
+                </div>
+            </div>
+            <div class="element__inform">
+                <img class="element__image" src="./images/Dombay1.png">
+                <div class="element__form">
+                    <h2 class="element__title">Домбай</h2>
+                    <input type="image" src="./images/like/Vector.svg" class="element__button">
+                </div>
+            </div>
+            <div class="element__inform">
+                <img class="element__image" src="./images/Karachaevck1.png">
+                <div class="element__form">
+                    <h2 class="element__title">Карачаево-Черкессия</h2>
+                    <input type="image" src="./images/like/Vector.svg" class="element__button">
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <h2 class="footer__title">© 2020 Mesto Russia</h2>
+    </footer>
+    <div class="popup">
+        <form class="popup__container">
+            <h2 class="popup__title">Редактировать профиль</h2>
+            <input type="text" required value="Жак-Ив Кусто" class="popup__name">
+            <input type="text" required value="Исследователь океана" class="popup__status">
+            <button class="popup__button" type="submit">Сохранить</button>
+            <input type="image" src="./images/Close Icon.png" class="popup__close" alt="Закрыть">
+        </form>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>

@@ -1,0 +1,13 @@
+.element__form {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    max-width: 246px;
+    margin: 25px auto 31px;
+}
+
+@media screen and (max-width: 580px) {
+    .element__form {
+        max-width: 246px;
+    }
+}

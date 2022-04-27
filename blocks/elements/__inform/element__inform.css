@@ -1,0 +1,18 @@
+.element__inform {
+    width: 282px;
+    height: 361px;
+    background: white;
+    border-radius: 10px;
+    margin-right: 17px;
+}
+
+.element__inform:nth-child(3n) {
+    margin: 0;
+}
+
+
+@media screen and (max-width: 580px) {
+    .element__inform {
+        margin: 0;
+    }
+}

@@ -1,0 +1,10 @@
+.profile__button {
+    max-width: 150px;
+    max-height: 50px;
+    transition: .3s ease-in;
+}
+
+.profile__button:hover {
+    opacity: .3;
+    transition: .3s ease-in;
+}

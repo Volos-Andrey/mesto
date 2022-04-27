@@ -1,0 +1,17 @@
+.element__button {
+    width: 22px;
+    height: 19px;
+    transition: .2s ease-in;
+    background: url(../../../images/like/Vector.svg);
+}
+
+.element__button:hover {
+    opacity: .3;
+    transition: .2s ease-in;
+}
+
+.element__button:focus {
+    background: url(../../../images/like/Union.png);
+    transition: none;
+    opacity: 1;
+}
