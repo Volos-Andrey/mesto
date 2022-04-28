@@ -11,11 +11,11 @@
 @font-face {
     font-family: 'Inter';
     font-style:  normal;
-    font-weight: 700;
+    font-weight: 500;
     font-display: swap;
-    src: url(../vendor/fonts/Inter-Black.woff2) format("woff2"),
-         url(../vendor/fonts/Inter-Black.woff) format("woff"),
-         url(../vendor/fonts/Inter-Black.otf);
+    src: url(../vendor/fonts/Inter-Medium.woff2) format("woff2"),
+         url(../vendor/fonts/Inter-Medium.woff) format("woff"),
+         url(../vendor/fonts/Inter-Medium.otf);
 }
 
 @font-face {
@@ -23,7 +23,7 @@
     font-style:  normal;
     font-weight: 900;
     font-display: swap;
-    src: url(../vendor/fonts/Inter-Bold.woff2) format("woff2"),
-         url(../vendor/fonts/Inter-Bold.woff) format("woff"),
-         url(../vendor/fonts/Inter-Bold.otf);
+    src: url(../vendor/fonts/Inter-Black.woff2) format("woff2"),
+         url(../vendor/fonts/Inter-Black.woff) format("woff"),
+         url(../vendor/fonts/Inter-Black.otf);
   }

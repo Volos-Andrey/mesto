@@ -9,3 +9,11 @@
     opacity: .3;
     transition: .3s ease-in;
 }
+
+@media screen and (max-width: 610px) {
+    .profile__edit {
+        margin-left: 10px;
+        width: 18px;
+        height: 18px;
+    }
+}
