@@ -1,6 +1,6 @@
-.popup__name {
+.form__data {
     border: none;
-    border-bottom: solid 1px #545454;
+    border-bottom: solid 1px #000000;
     padding-bottom: 13px;
     outline: none;
     width: 358px;
@@ -10,8 +10,16 @@
     line-height: 17px;
 }
 
+.form__data:last-of-type {
+    margin-bottom: 48px;
+}
+
 @media screen and (max-width: 580px) {
-    .popup__name {
+    .form__data {
         max-width: 238px;
+    }
+
+    .form__data:last-of-type {
+        margin-bottom: 45px;
     }
 }

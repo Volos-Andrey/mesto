@@ -2,9 +2,17 @@
     max-width: 150px;
     max-height: 50px;
     transition: .3s ease-in;
+    background: url(../../../images/AddButton.png);
 }
 
 .profile__button:hover {
     opacity: .3;
     transition: .3s ease-in;
+}
+
+@media screen and (max-width: 610px) {
+    .profile__button {
+        background: url(../../../images/AddButton1.png);
+        max-width: 282px;
+    }
 }
