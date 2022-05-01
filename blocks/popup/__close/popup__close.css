@@ -1,9 +1,9 @@
 .popup__close {
     width: 32px;
     height: 32px;
-    position: absolute;
-    right: -32px;
-    top: -41px;
+    position: relative;
+    right: -429px;
+    top: -11px;
 }
 
 .popup__close:hover {
@@ -14,7 +14,7 @@
    .popup__close {
     width: 20px;
     height: 20px;
-    right: 0px;
-    top: -27px;
+    right: -261px;
+    top: -4px;
    }
 }

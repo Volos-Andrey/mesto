@@ -10,7 +10,7 @@
 }
 
 .profile__insert:hover {
-    opacity: .3;
+    opacity: .6;
     transition: .3s ease-in;
 }
 

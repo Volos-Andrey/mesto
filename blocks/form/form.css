@@ -1,5 +1,15 @@
 .form {
-    align-items: center;
     display: flex;
+    align-items: center;
     flex-direction: column;
+    width: 430px;
+    background-color: white;
+    border-radius: 10px;
+    z-index: 3;
+}
+
+@media screen and (max-width: 610px) {
+    .form {
+        width: 282px;
+    }
 }
