@@ -1,9 +1,8 @@
 .profile__edit {
-    max-width: 24px;
-    max-height: 24px;
+    width: 24px;
+    height: 24px;
     margin-left: 18px;
     transition: .3s ease-in;
-    background: url(../../../images/EditButton.svg);
 }
 
 .profile__edit:hover {
@@ -13,9 +12,8 @@
 
 @media screen and (max-width: 610px) {
     .profile__edit {
-        background: url(../../../images/EditButton.png);
         margin-left: 10px;
-        max-width: 18px;
-        max-height: 18px;
+        width: 18px;
+        height: 18px;
     }
 }

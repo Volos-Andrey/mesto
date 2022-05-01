@@ -2,7 +2,6 @@
     max-width: 22px;
     max-height: 19px;
     transition: .2s ease-in;
-    background: url(../../../images/like/Vector.svg);
 }
 
 .element__button:hover {
@@ -11,7 +10,7 @@
 }
 
 .element__button:active {
-    background: url(../../../images/like/Union.png);
+    background: url(../../../images/Union.svg);
     transition: none;
     opacity: 1;
 }

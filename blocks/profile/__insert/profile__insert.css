@@ -1,0 +1,21 @@
+.profile__insert {
+    width: 150px;
+    height: 50px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 2px;
+    outline: none;
+    background-color: black;
+    cursor: pointer;
+}
+
+.profile__insert:hover {
+    opacity: .3;
+    transition: .3s ease-in;
+}
+
+@media screen and (max-width: 610px) {
+    .profile__insert {
+        width: 282px;
+    }
+}

@@ -6,7 +6,7 @@
     margin: 34px 0 54px;
 }
 
-@media screen and (max-width: 580px) {
+@media screen and (max-width: 610px) {
     .form__title {
         font-size: 18px;
         line-height: 22px;
