@@ -8,32 +8,36 @@ const popup = document.querySelector('.popup');
 const popupClose = document.querySelector('.popup__close');
 const PopupContent = document.querySelector ('.popup__container')
 
-function togglePopup() {
-   popup.classList.toggle('popup_active');
-   nameInput.value = formElementName.textContent; //Я так понимаю, что при активации попапа передаются данные?
-   jobInput.value = formElemenStatus.textContent; //Если не сюда, то я даже не знаю...)))
+function popupOpen() {
+    nameInput.value = formElementName.textContent;
+    jobInput.value = formElemenStatus.textContent;
+    popup.classList.add('popup_active');
+}
+
+function closePopup() {  
+    popup.classList.remove('popup_active');
 }
 
 function formSubmitHandler (evt) {
     evt.preventDefault();
     formElementName.textContent = nameInput.value;
     formElemenStatus.textContent = jobInput.value; 
-    togglePopup();
+    closePopup();
 }
 
 PopupContent.addEventListener('submit', formSubmitHandler); 
 
 popupOpenBtn.addEventListener('click', function (event) {
     event.preventDefault();
-    togglePopup();
+    popupOpen();
 });
 
 popupClose.addEventListener('click', function (event) {
-    togglePopup();
+    closePopup();
 });
 
 popup.addEventListener('click', function(event) {
     if(event.target == event.currentTarget) {
-        togglePopup();
+        closePopup();
     }
 });
